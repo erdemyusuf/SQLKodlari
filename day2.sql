@@ -166,6 +166,7 @@ drop table isciler;
 -- NOT NULL --> Bir sutunun NULL içermemesini yani boş olmamasını sağlar
 -- NOT NULL kısıtlaması için CONSTRAINT ismi tanımlanmaz. Bu kısıtlama veri türünden hemen sonra yerleştirilir
 -- CHECK --> Bir sutuna yerleştirilebilecek değer aralığını sınırlamak için kullanılır.
+
 CREATE TABLE calisanlar
 (
 id CHAR(5) PRIMARY KEY, -- not null + unique
