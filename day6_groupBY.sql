@@ -124,6 +124,9 @@ from personel group by cinsiyet
 -- Personelin, ulkelere göre ve şehirlere göre gruplayarak sorgulayın
 select ulke,sehir from personel
 group by ulke,sehir
+
+select ulke,sehir from personel
+group by ulke,sehir order by ulke
 -- order by ulke eklersek alfabetik sıralama yapar 
 -- order by ulke desc eklersek tersten alfabetik sıralama yapar 
 

@@ -29,6 +29,7 @@ harf_sayisi int
     INSERT INTO kelimeler VALUES (1015, 'hooooot', 5);
     INSERT INTO kelimeler VALUES (1016, 'booooot', 5);
     INSERT INTO kelimeler VALUES (1017, 'bolooot', 5);
+	
 select * from kelimeler
 --  İçerisinde 'ot' veya 'at' bulunan kelimeleri listeleyiniz
 -- Veya işlemi için | karakteri kullanılır

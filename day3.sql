@@ -56,7 +56,7 @@ delete from adresler WHERE adres_id = '10002'; --Child
 drop table calisanlar;
 
 
--- ON DELETE CASCADE --
+-- ON DELETE CASCADE --  
 
 --Her defasında önce child tablodaki verileri silmek yerine 
 --ON DELETE CASCADE silme özelliğini aktif hale getirebiliriz
